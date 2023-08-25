@@ -114,4 +114,10 @@ nav p {
     justify-content: space-evenly;
 }
 
-
+/* styling the footer */
+footer {
+    text-align: center;
+    font-size: 15px !important; 
+    margin-top: 100px; 
+    margin-bottom: 0px; 
+}
