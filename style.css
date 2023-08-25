@@ -1,6 +1,6 @@
 /* general styling */ 
 body {
-    padding: 20px;
+    padding: 30px;
 }
 h1, h2, h4 {
     font-family: 'Abril Fatface', cursive;
@@ -64,6 +64,31 @@ nav p {
     margin: 40px; 
     padding: 30px; 
     padding-top: 10px; 
-
 }
+/* styling for In addition section */
+.interests-intro {
+    text-align: center; 
+    border: solid black 1px; 
+}
+.interests {
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px; 
+}
+.interests img {
+    width: 280px; 
+}
+.interests-container {
+    padding: 40px; 
+}
+.interests div p {
+    text-align: center; 
+}
+
+.interests-container header h2 {
+    text-align: center;
+    padding: 30px; 
+}
+
 
