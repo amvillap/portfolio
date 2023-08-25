@@ -74,7 +74,7 @@ nav p {
     display: flex; 
     justify-content: space-evenly; 
     align-items: center;
-    margin: 30px; 
+    margin-top: 50px; 
 }
 .interests img {
     width: 280px; 
@@ -88,7 +88,30 @@ nav p {
 
 .interests-container header h2 {
     text-align: center;
+    padding-top: 30px; 
+    padding-bottom: 0px;
+    margin: 20px;
+}
+/* Styling for contact me section */
+.contactme {
+    text-align:center; 
+    margin-top: 30px;
+}
+
+.contactme-sign {
+    margin: 20px; 
+
+}
+.contactme-sign h2 {
+    margin: 0px; 
+}
+.contact-info{
     padding: 30px; 
+    font-size: 25px; 
+}
+.links {
+    display: flex; 
+    justify-content: space-evenly;
 }
 
 
