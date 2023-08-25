@@ -4,6 +4,7 @@ body {
 }
 article {
     padding: 50px;
+    
 }
 
 h1, h2, h4 {
@@ -156,7 +157,6 @@ footer {
     text-align: center;
     font-size: 15px !important; 
     margin: 100px 0px 0px 0px; 
-    margin-bottom: 0px; 
     padding: 10px;
     background-color: lightgrey;
     color:white;
