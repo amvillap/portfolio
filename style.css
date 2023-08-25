@@ -1,16 +1,31 @@
+/* general styling */ 
 body {
     padding: 20px;
 }
+h1, h2, h4 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px; 
+}
+p {
+    font-family:'Lato', sans-serif;
+}
+article p {
+    font-size: 20px; 
+}
+
+/* styling for header */ 
+
 .intro-container{
     display:flex;
-    border: solid black 1px;
     align-items: center;
-
 }
 
 .logo {
     margin-right:auto;
-    font-family: 'Abril Fatface', cursive;}
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 30px; 
+    margin-bottom: 50px; 
+}
 .logo > h1 {
     font-size: 100px;
 }
@@ -25,10 +40,30 @@ body {
 nav {
     justify-content: center;
     padding: 30px;
-    font-size: 40px;
+    font-size: 40px !important;
     margin-right: 20px;
 }
 nav p {
     justify-content: space-around;
     font-family:'Lato', sans-serif;
 }
+/* styling for About me section */ 
+.aboutme {
+    display: flex; 
+    padding: 20px; 
+    margin-bottom: 50px;
+    align-items: center; 
+
+}
+.angelika-picture {
+    width: 30%; 
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+.about-me-content {
+    margin: 40px; 
+    padding: 30px; 
+    padding-top: 10px; 
+
+}
+
